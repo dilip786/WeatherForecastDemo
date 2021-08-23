@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">WeatherForecastDemo</string>
+    <string name="search_state_name_here">search state name here..</string>
+    <string name="hyderabad">Hyderabad</string>
+    <string name="_17_8389_78_6767">17.8389, 78.6767</string>
+</resources>
