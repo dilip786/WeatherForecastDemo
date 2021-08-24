@@ -25,6 +25,7 @@ class StatesListActivity : AppCompatActivity() {
         initViewModel()
         initRecyclerView()
         initObservers()
+
     }
 
     private fun initViewModel() {

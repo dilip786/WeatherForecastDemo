@@ -14,7 +14,7 @@ import javax.inject.Inject
 
 class StateListViewModel @Inject constructor(private val stateListUseCase: StateListUseCase) :
     ViewModel() {
-    val mStatesList = MutableLiveData<List<StateDoItem>>()
+    private val mStatesList = MutableLiveData<List<StateDoItem>>()
     val handleStatesList: LiveData<List<StateDoItem>> get() = mStatesList
 
     init {
